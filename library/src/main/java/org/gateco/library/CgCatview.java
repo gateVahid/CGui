@@ -21,8 +21,8 @@ public class CgCatview extends LinearLayout {
 
         LayoutInflater.from(c).inflate(R.layout.cg_catview,this);
 
-        pic=findViewById(R.id.catview_imageview_pic);
-        category=findViewById(R.id.catview_textview_category);
+        pic=findViewById(R.id.main_guilds_item_iv);
+        category=findViewById(R.id.main_guilds_item_tv);
     }
 
     public ImageView getPic(){

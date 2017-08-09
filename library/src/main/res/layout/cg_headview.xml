@@ -8,26 +8,29 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:background="@drawable/radius"
-        android:foreground="?android:attr/selectableItemBackground"
+        android:background="@drawable/border_grey"
         android:orientation="horizontal">
 
-        <ImageView
-            android:id="@+id/picvwide_imageview_pic"
-            android:layout_width="150dp"
-            android:layout_height="150dp" />
+        <TextView
+            android:id="@+id/headview_textview_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="تکست" />
 
         <LinearLayout
-            android:layout_width="1px"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_weight="1"
             android:orientation="vertical"></LinearLayout>
 
-        <TextView
-            android:id="@+id/picvwide_textview_name"
-            android:layout_width="match_parent"
+        <Button
+            android:id="@+id/headview_button_more"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="start"
-            android:padding="16dp"
-            android:text="نام" />
+            android:background="?android:attr/selectableItemBackground"
+            android:text="بیشتر"
+            android:textColor="@color/colorAccent" />
     </LinearLayout>
+
 </LinearLayout>
