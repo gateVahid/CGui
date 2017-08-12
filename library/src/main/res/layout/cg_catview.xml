@@ -47,7 +47,7 @@
                     android:layout_height="match_parent"
                     android:layout_gravity="right"
                     android:layout_weight="2.5"
-                    android:background="#"
+                    android:background="#fff"
                     android:gravity="center"
                     android:orientation="vertical">
 
